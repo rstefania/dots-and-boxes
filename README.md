@@ -2,11 +2,13 @@
 
 
 
-A simple implementation of the classic Dots and Boxes game in C++.
+A simple C++ implementation of the classic Dots and Boxes game, with a graphical interface using WinBGI.
 
 
 
-\# Features
+\## Features
+
+
 
 \- Two-player mode
 
@@ -18,9 +20,23 @@ A simple implementation of the classic Dots and Boxes game in C++.
 
 
 
-\# How to Run
+\## Requirements
 
-1\. Open the project in Code::Blocks or another C++ IDE that supports WinBGI.
+
+
+\- C++ compiler (g++, MinGW, etc.)
+
+\- \[WinBGI](http://winbgim.codecutter.org/) (graphics library)
+
+\- Code::Blocks or another IDE that supports linking with WinBGI
+
+
+
+\## How to Run
+
+
+
+1\. Open the project in Code::Blocks (or another C++ IDE).
 
 2\. Compile 'main.cpp' together with 'winbgi2.cpp'.
 
@@ -30,23 +46,27 @@ A simple implementation of the classic Dots and Boxes game in C++.
 
 
 
-\# Files
-
-\- 'main.cpp' – main source file of the game
-
-\- 'winbgi2.cpp' – graphics library implementation
-
-\- 'graphics2.h' – graphics library header
-
-\- '.gitignore' – ignored files list
-
-\- 'LICENSE' – project license
+\## Files
 
 
 
-\# License
+\- 'main.cpp' – main source file of the game  
 
-This project is released under the MIT License.
+\- 'winbgi2.cpp' – graphics library implementation  
+
+\- 'graphics2.h' – graphics library header  
+
+\- '.gitignore' – ignored files list  
+
+\- 'LICENSE' – project license  
+
+
+
+\## License
+
+
+
+This project is licensed under the MIT License.
 
 
 
